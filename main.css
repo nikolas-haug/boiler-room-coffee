@@ -1,3 +1,7 @@
+/* custom css for boiler-room-coffee */
+
+/* universal styles */
+
 body {
     font-family: 'Railroad Gothic W01';
     font-size: 18px;
@@ -41,6 +45,8 @@ body {
    }
 
 /* ================================================== */
+/* TYPOGRAPHY */
+/* ================================================== */
 
 #hero {
     background-color: white;
@@ -51,7 +57,6 @@ body {
     font-size: 21px;
 }
 
-/* check this */
 h4 {
     color: #231f20;
 }
@@ -75,6 +80,14 @@ p {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
     transition: all, 0.3s;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: 0;
 }
 
 p a {
